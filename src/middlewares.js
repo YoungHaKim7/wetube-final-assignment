@@ -14,7 +14,7 @@ const s3 = new S3Client({
 const multerUploader = multer({
   storage: multerS3({
     s3: s3,
-    bucket: "wetubeeeeeeeeeeee",
+    bucket: "wetubeeeeeeeeeeeeeeeeeee",
   }),
 });
 
